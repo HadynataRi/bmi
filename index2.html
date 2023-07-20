@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="css/styles2.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-bar" id="home"><img src="./assets/home.png" alt=""></div>
+        <div class="nav-bar" id="tagline">RevoU Software Engineering Mini-Project</div>
+        <div class="nav-bar" id="menu"><img src="./assets/menu.png" alt=""></div>
+    </nav>
+
+    <div class="main-content">
+
+        <div class="main-content-application">
+            <div class="expl">
+                <h1>BMI Calculator</h1>
+                <h3>Body mass index (BMI) is a value derived from the mass (weight) and height 
+                of a person. The BMI is defined as the body mass divided by the square of 
+                the body height, and is expressed in units of kg/m2, resulting from mass in 
+                kilograms and height in metres.</h3>
+            </div>
+            
+            <div class="user-input">
+                <form action="#">
+                    <div class="gender">
+                        <div class="gender-label">    
+                            <label for="gender">Jenis Kelamin</label>
+                        </div>
+                        <div class="gender-input">
+                            <input type="radio" name="gender" id="gender-male"  >Laki-laki
+                            <input type="radio" name="gender" id="gender-female">Perempuan
+                        </div>
+                    </div>
+
+                    <div class="weight">
+                        <div class="weight-label">
+                            <label for="weight">Berat Badan (Kg)</label>
+                        </div>
+
+                        <div class="weight-input">
+                            <input type="number" name="weight" id="weight-input">
+                        </div>
+                    </div>
+
+                    <div class="age">
+                        <div class="age-label">
+                            <label for="age">Usia (tahun)</label>
+                        </div>
+
+                        <div class="age-input">
+                            <input type="number" name="age" id="age-input">
+                        </div>
+                    </div>
+
+                    <div class="height">
+                        <div class="height-label">
+                            <label for="height">Tinggi badan (cm)</label>
+                        </div>
+                        
+                        <div class="height-input">
+                            <input type="number" name="height" id="height-input">
+                        </div>
+                    </div>
+
+                    <div class="submit-btn">
+                        <button id="submit-btn">Hitung BMI</button>
+                    </div>
+                    
+                </form>
+            </div>
+        </div>
+
+        <div class="main-content-img">
+            <!-- <div class="img-banner">
+                <img src="assets/Level 3 Personal Trainer Course (Online Option).png" alt="">
+            </div> -->
+        </div>
+    </div>    
+    
+
+
+
+    <script src="script2.js"></script>
+</body>
+</html>

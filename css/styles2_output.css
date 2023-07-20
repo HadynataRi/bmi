@@ -1,0 +1,114 @@
+/* hi */
+body {
+    margin: 0.5%;
+}
+
+nav  {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffd9c0;
+    /* margin: none; */
+}
+
+nav > .nav-bar {
+    color: black;
+    padding: 1%;
+    display: flex;
+}
+
+nav > #tagline {
+    display: flex;
+    align-items: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 125%;
+    font-weight: bold;
+    /* justify-content: center; */
+}
+
+/* Di bawah ini, code css yang mengatur main content dari web */
+
+.main-content {
+    display: flex;
+    /* flex-direction: row-reverse; */
+    justify-content:flex-start;
+}
+
+.main-content > .main-content-img {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    background-image: url('/ver2/assets/Level\ 3\ Personal\ Trainer\ Course\ \(Online\ Option\).png');
+}
+
+.main-content > .main-content-img > .img-banner {
+    display: flex;
+    justify-content: flex-start;
+    /* padding: 2%; */
+    height: 93vh;
+}
+
+
+.main-content > .main-content-application {
+    width: 50%;
+    background-color: #faf0d7;
+    /* opacity: 70%; */
+    height: 89vh;
+    padding: 2%;
+    padding-top: 0px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    gap: auto;
+    
+    /* display: flex; */
+}
+
+.main-content > .main-content-application > .expl {
+    /* margin: 5%;/ */
+    padding: 3%;
+}
+
+.main-content > .main-content-application > .user-input {
+    background-color: #8cc0de;
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    /* opacity: 50%; */
+}
+
+.main-content > .main-content-application > .user-input > form {
+    display: block;
+    padding: 2%;
+    justify-content: center;
+    margin: auto;
+    font-size: large;
+}
+
+.main-content > .main-content-application > .user-input > form > .gender > .gender-label,
+.age-label, .weight-label, .height-label {
+    justify-content: center;
+    display: flex;
+    font-weight: bold;
+    /* margin: auto; */
+}
+
+.main-content > .main-content-application > .user-input > form > .gender > 
+.age-input, .weight-input, .height-input, .submit-btn {
+    display: flex;
+    justify-content: center;
+}
+
+.main-content > .main-content-application > .user-input > form > .gender > 
+#age-input, #weight-input, #height-input {
+    width: 75%;
+}
+
+/* BELOW IS CODES FOR OUTPUT*/
+
+.main-content > .main-content-application > .expl > p{
+    font-style: italic;
+}
+
